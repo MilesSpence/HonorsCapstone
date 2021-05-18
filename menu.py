@@ -18,15 +18,15 @@ var = input("Please enter your selection: ")
 # Loop
 while(var.lower() != "q" and var.lower() != "exit"):
 	if(var.lower() == "a"):
-		import webscraper
+		import displayData
 	elif(var.lower() ==  "b"):
             sub = input("Enter your choice: \n(a) Check accuracy \n(b) 100 person sim \n(c) COVID-19 sim\n")
             if(sub.lower() == "a"):
-                import accuracyCheck
+                import simCheck
             elif(sub.lower() == "b"):
                 import smallPopSim
             else:
-                import noInputSim
+                import COVIDSim
 	elif(var.lower() ==  "c"):
 		import userInputSim
 	elif(var.lower() ==  "h"):
