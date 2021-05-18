@@ -2,7 +2,7 @@
 import numpy as np
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
-from datareadtest import avg_infect_rate, avg_mort_rate, total_cases
+from createProbs import avg_infect_rate, avg_mort_rate, total_cases
 
 # This is the most important of the simulations. It is for simulating the number of new cases,
 # deaths, and vaccinations.
